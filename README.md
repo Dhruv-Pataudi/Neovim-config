@@ -29,10 +29,12 @@ Use:
 sudo dnf install neovim
 ```
 ### openSUSE
+Use:
 ```
 sudo zypper in neovim
 ```
 ### Gentoo
+Use:
 ```
 emerge -a app-editors/neovim
 ```
