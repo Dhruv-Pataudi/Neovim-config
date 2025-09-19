@@ -44,7 +44,7 @@ Installation is easy, you just need to clone the repo into:
 
 But before installing, create back-up for your current neovim configuration using:
 ```
-mv mv ~/.config/nvim ~/.config/nvim_backup
+mv ~/.config/nvim ~/.config/nvim_backup
 ```
 
 Then launch Neovim using:
