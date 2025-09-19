@@ -8,7 +8,7 @@ All you need is:
 *   Git
 *   A **[Nerd Font](https://www.nerdfonts.com/font-downloads)**
 
-##Installation
+## Installation
 First you need to install Neovim
 
 If you are using:
