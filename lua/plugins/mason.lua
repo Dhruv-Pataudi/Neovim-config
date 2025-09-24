@@ -26,6 +26,7 @@ return {
 					"jsonls",
 					"bashls",
 					"yamlls",
+					"lemminx",
 				},
 			})
 		end,

@@ -9,5 +9,6 @@ return {
 		lspconfig.clangd.setup({})
 		lspconfig.html.setup({})
 		lspconfig.cssls.setup({})
+		lspconfig.lemminx.setup({ settings = { xml = { format = { enabled = true } } } })
 	end,
 }
