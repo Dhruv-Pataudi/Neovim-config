@@ -22,7 +22,11 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 
+vim.g.mapleader = " "
+vim.o.timeout = true
+vim.o.timeoutlen = 200
+vim.keymap.set("n", "<Space>", "<Nop>", { silent = true })
+
 vim.opt.number = true
 vim.opt.relativenumber = true
-
 vim.opt.signcolumn = "yes"

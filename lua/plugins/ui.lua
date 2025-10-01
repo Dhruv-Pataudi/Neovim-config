@@ -571,7 +571,7 @@ return {
 		lazy = false,
 		config = function()
 			require("lualine").setup({
-				options = { theme = "horizon" },
+				options = { theme = "gruvbox" },
 			})
 		end,
 	},

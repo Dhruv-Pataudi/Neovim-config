@@ -71,6 +71,19 @@ return {
 					protocol = "inspector",
 				},
 			}
+			dap.configurations.lua = {
+				{
+					type = "local-lua",
+					request = "launch",
+					name = "Launch Lua",
+					cwd = vim.fn.getcwd(),
+					program = {
+						lua = "lua5.4",
+						file = "${file}",
+					},
+					args = {},
+				},
+			}
 			dap.configurations.typescript = dap.configurations.javascript
 			dap.configurations.rust = dap.configurations.cpp
 			local keymap = vim.keymap.set
